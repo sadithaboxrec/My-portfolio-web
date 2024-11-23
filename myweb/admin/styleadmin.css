@@ -1,0 +1,90 @@
+form{
+  width: 30%;
+  margin: 100px auto;
+  padding: 30px;
+  border: 1px solid #333;
+}
+
+input{
+  width: 100%;
+  border: 1px solid #333;
+  display: block;
+  padding: 5px 10px;
+}
+
+button {
+  border: none;
+  padding: 10px;
+  border-radius: 10px ;
+}
+
+table{
+  width: 60%;
+  border-collapse: collapse;
+  margin:100px auto ;
+}
+
+th,td{
+  height: 50px;
+  vertical-align: center;
+  border: 1px solid black;
+  text-align: center;  
+}
+
+.logout {
+  position: absolute;
+ margin: 100px;      
+
+}
+
+
+
+.btn_primary{
+  background-color: #1e90ff; 
+  color: white;
+  padding: 1%;
+  text-decoration: none;
+  font-weight: bold;
+ }
+ .btn_primary:hover{
+   background-color: #3742fa;
+ }
+ 
+ .btn_secondary{
+   background-color: #7bed9f; 
+   color: white;
+   padding: 1%;
+   text-decoration: none;
+   font-weight: bold;
+  }
+  .btn_secondary:hover{
+    background-color: #2ed573;
+  }
+ 
+  .btn_danger{
+   background-color: #ff6b81; 
+   color: white;
+   padding: 1%;
+   text-decoration: none;
+   font-weight: bold;
+  }
+  .btn_danger:hover{
+    background-color: #ff4757;
+  }
+ 
+  .success-msg{
+   color: #2ed573;
+  }
+ .error-msg{
+   color: #ff4757;
+ }
+
+ .login{
+   border: 1px solid green;
+   width: 30%;
+   margin: 10% auto;
+   /* auto will set box to center */
+   padding: 2%;
+   
+ 
+ }
